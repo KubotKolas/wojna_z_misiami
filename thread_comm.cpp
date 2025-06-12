@@ -67,6 +67,7 @@ void *startKomWatek(void *ptr)
 	        break;
         }
     }
+    return nullptr;
 }
 
 void requestMech(int n){

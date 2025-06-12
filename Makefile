@@ -6,7 +6,7 @@ FLAGS=-DDEBUG -g
 all: main tags
 
 main: $(SOURCES) $(HEADERS) Makefile
-	mpicc $(SOURCES) $(FLAGS) -o wojna_z_misiami
+	mpic++ $(SOURCES) $(FLAGS) -o wojna_z_misiami
 
 clear: clean
 
