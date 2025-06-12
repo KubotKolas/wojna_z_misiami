@@ -1,5 +1,6 @@
 #include "includes.hpp"
 #include "defines.hpp"
+#include "thread_comm.hpp"
 
 void *startKomWatek(void *ptr)
 {
@@ -12,19 +13,51 @@ void *startKomWatek(void *ptr)
     while ( stan!=FINISHED ) {
 	debug("czekam na recv");
         MPI_Recv( &pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+        timer = std::max(pakiet.ts, timer) + 1;
 
         switch ( status.MPI_TAG ) {
 	    case REQ_DOCK: 
-            // TODO: to implement
+            // TODO: test
+            dock_requests.push({pakiet.ts, pakiet.src});
+            switch (stan) {
+                case IDLE:
+                case AWAIT_MECH:
+                case AWAIT_DOCK:
+                    if (dock_counter > 0 && !dock_requests.empty()){
+                        int dest = dock_requests.top().second;
+                        sendDock(dest, dock_counter);
+                        dock_requests.pop();
+                        dock_counter = 0;
+                    }
+                    break;
+                default:
+                    break;
+            }
 	        break;
 	    case REQ_MECH: 
-            // TODO: to implement
+            // TODO: test
+            mech_requests.push({pakiet.ts, pakiet.src});
+            switch (stan) {
+                case IDLE:
+                case AWAIT_MECH:
+                    if (mech_counter > 0 && !mech_requests.empty()){
+                        int dest = mech_requests.top().second;
+                        sendDock(dest, mech_counter);
+                        mech_requests.pop();
+                        mech_counter = 0;
+                    }
+                    break;
+                default:
+                    break;
+            }
 	        break;
         case T_DOCK:
-            // TODO: to implement
+            // TODO: test
+            dock_counter += pakiet.data;
             break;
         case T_MECH:
-            // TODO: to implement
+            // TODO: test
+            mech_counter += pakiet.data;
             break;
 	    default:
             // Unknown message type; throw an error
@@ -34,4 +67,20 @@ void *startKomWatek(void *ptr)
 	        break;
         }
     }
+}
+
+void requestMech(int n){
+
+}
+
+void requestDock(){
+    
+}
+
+void sendMech(int dest, int n){
+
+}
+
+void sendDock(int dest, int n){
+
 }

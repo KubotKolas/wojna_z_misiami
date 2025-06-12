@@ -18,7 +18,11 @@
                                                 */
                                                 
 #pragma once
+#include <functional>
 #include <mpi.h>
+#include <queue>
+#include <utility>
+#include <vector>
 
 extern int rank;
 
@@ -59,4 +63,16 @@ struct packet{
 
 #define NITEMS 3
 
+extern int MAX_INT;
+
 extern MPI_Datatype MPI_PAKIET_T;
+
+extern int timer;
+extern int dock_counter;
+extern int mech_counter;
+extern int my_priority;
+
+using request = std::pair<int, int>;
+
+extern std::priority_queue<request, std::vector<request>, std::greater<request>> dock_requests;
+extern std::priority_queue<request, std::vector<request>, std::greater<request>> mech_requests;

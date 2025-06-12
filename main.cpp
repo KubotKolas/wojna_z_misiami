@@ -30,7 +30,13 @@ int main(int argc, char **argv){
      * w vi najedź kursorem na nazwę pliku i wciśnij klawisze gf
      * powrót po wciśnięciu ctrl+6
      * */
-    mainLoop(); // możesz także wcisnąć ctrl-] na nazwie funkcji
+    
+    
+     //  TODO: pobrać dane z terminala
+
+    int d = 4;
+    int m = 15;
+    mainLoop(d, m, provided); // możesz także wcisnąć ctrl-] na nazwie funkcji
 		// działa, bo używamy ctags (zob Makefile)
 		// jak nie działa, wpisz set tags=./tags :)
     
