@@ -32,7 +32,13 @@ void requestMech(int n){
 }
 
 void requestDock(){
-    
+    packet p;
+    timer += 1;
+    p.ts = timer;
+    p.tag = REQ_DOCK;
+    p.data = 1;
+    p.src = rank;
+    MPI_Bcast(&p, 1, MPI_PAKIET_T, rank, MPI_COMM_WORLD);
 }
 
 void sendMech(int dest, int n){
