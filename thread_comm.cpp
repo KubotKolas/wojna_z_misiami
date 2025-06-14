@@ -12,7 +12,7 @@ void *startKomWatek(void *ptr)
     MPI_Comm_rank(MPI_COMM_WORLD, &tid);
     /* Obrazuje pętlę odbierającą pakiety o różnych typach */
     while ( stan!=FINISHED ) {
-	debug("czekam na recv");
+	// debug("czekam na recv");
         MPI_Recv( &pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
         handleMess(&pakiet, &status);
         // MPI_Bcast(&pakiet, 1, MPI_PAKIET_T, rank, MPI_COMM_WORLD);
@@ -71,13 +71,13 @@ void sendDock(int dest, int n){
 }
 
 void handleMess(packet* pakiet, MPI_Status* status){
-    debug("Received mess")
+    // debug("Received mess")
     timer = std::max(pakiet->ts, timer) + 1;
 
         switch ( pakiet->tag ) {
 	    case REQ_DOCK: 
             // TODO: test
-            debug("Recieved dock req")
+            // debug("Recieved dock req")
             dock_requests.push({pakiet->ts, pakiet->src});
             switch (stan) {
                 case IDLE:
@@ -96,7 +96,7 @@ void handleMess(packet* pakiet, MPI_Status* status){
 	        break;
 	    case REQ_MECH: 
             // TODO: test
-            debug("Recieved mech req")
+            // debug("Recieved mech req")
             mech_requests.push({pakiet->ts, pakiet->src});
             switch (stan) {
                 case IDLE:
