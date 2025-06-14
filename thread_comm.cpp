@@ -36,11 +36,23 @@ void requestDock(){
 }
 
 void sendMech(int dest, int n){
-
+    packet p;
+    timer += 1;
+    p.ts = timer;
+    p.tag = T_MECH;
+    p.src = rank;
+    p.data = n;
+    MPI_Send(&p, 1, MPI_PAKIET_T, dest, T_MECH, MPI_COMM_WORLD);
 }
 
 void sendDock(int dest, int n){
-
+    packet p;
+    timer += 1;
+    p.ts = timer;
+    p.tag = T_DOCK;
+    p.src = rank;
+    p.data = n;
+    MPI_Send(&p, 1, MPI_PAKIET_T, dest, T_DOCK, MPI_COMM_WORLD);
 }
 
 void handleMess(packet* pakiet, MPI_Status* status){
