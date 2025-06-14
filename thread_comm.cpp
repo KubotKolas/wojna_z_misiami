@@ -25,6 +25,7 @@ void requestMech(int n){
     debug("Requesting %d mechs", n)
     packet p;
     timer += 1;
+    my_priority = timer;
     p.ts = timer;
     p.tag = REQ_MECH;
     p.data = n;
@@ -39,6 +40,7 @@ void requestMech(int n){
 void requestDock(){
     packet p;
     timer += 1;
+    my_priority = timer;
     p.ts = timer;
     p.tag = REQ_DOCK;
     p.data = 1;
@@ -84,10 +86,20 @@ void handleMess(packet* pakiet, MPI_Status* status){
                 case AWAIT_MECH:
                 case AWAIT_DOCK:
                     if (dock_counter > 0 && !dock_requests.empty()){
-                        int dest = dock_requests.top().second;
-                        sendDock(dest, dock_counter);
-                        dock_requests.pop();
-                        dock_counter = 0;
+                        if (dock_requests.top().first < my_priority){
+                            int dest = dock_requests.top().second;
+                            sendDock(dest, dock_counter);
+                            dock_requests.pop();
+                            dock_counter = 0;
+                            break;
+                        }
+                        if (dock_requests.top().first == my_priority && dock_requests.top().second < rank){
+                            int dest = dock_requests.top().second;
+                            sendDock(dest, dock_counter);
+                            dock_requests.pop();
+                            dock_counter = 0;
+                            break;
+                        }
                     }
                     break;
                 default:
@@ -102,10 +114,20 @@ void handleMess(packet* pakiet, MPI_Status* status){
                 case IDLE:
                 case AWAIT_MECH:
                     if (mech_counter > 0 && !mech_requests.empty()){
-                        int dest = mech_requests.top().second;
-                        sendDock(dest, mech_counter);
-                        mech_requests.pop();
-                        mech_counter = 0;
+                        if (mech_requests.top().first < my_priority){
+                            int dest = mech_requests.top().second;
+                            sendDock(dest, mech_counter);
+                            mech_requests.pop();
+                            mech_counter = 0;
+                            break;
+                        }
+                        if (mech_requests.top().first == my_priority && mech_requests.top().second < rank){
+                            int dest = mech_requests.top().second;
+                            sendDock(dest, mech_counter);
+                            mech_requests.pop();
+                            mech_counter = 0;
+                            break;
+                        }
                     }
                     break;
                 default:
