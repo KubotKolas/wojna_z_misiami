@@ -2,6 +2,7 @@
 #include "defines.hpp"
 #include "thread_comm.hpp"
 #include "thread_main.hpp"
+#include <mpi.h>
 
 void check_thread_support(int provided);
 void inicjuj_typ_pakietu();
@@ -36,7 +37,9 @@ int main(int argc, char **argv){
 
     int d = 4;
     int m = 15;
-    mainLoop(d, m, provided); // możesz także wcisnąć ctrl-] na nazwie funkcji
+    int proc_number;
+    MPI_Comm_size(MPI_COMM_WORLD, &proc_number);
+    mainLoop(d, m, proc_number); // możesz także wcisnąć ctrl-] na nazwie funkcji
 		// działa, bo używamy ctags (zob Makefile)
 		// jak nie działa, wpisz set tags=./tags :)
     
