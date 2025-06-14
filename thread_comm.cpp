@@ -1,5 +1,6 @@
 #include "includes.hpp"
 #include "defines.hpp"
+#include <mpi.h>
 #include "thread_comm.hpp"
 
 void *startKomWatek(void *ptr)
@@ -15,7 +16,7 @@ void *startKomWatek(void *ptr)
         MPI_Recv( &pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
         timer = std::max(pakiet.ts, timer) + 1;
 
-        switch ( status.MPI_TAG ) {
+        switch ( pakiet.tag ) {
 	    case REQ_DOCK: 
             // TODO: test
             dock_requests.push({pakiet.ts, pakiet.src});
@@ -71,7 +72,13 @@ void *startKomWatek(void *ptr)
 }
 
 void requestMech(int n){
-
+    packet p;
+    timer += 1;
+    p.ts = timer;
+    p.tag = REQ_MECH;
+    p.data = n;
+    p.src = rank;
+    MPI_Bcast(&p, 1, MPI_PAKIET_T, rank, MPI_COMM_WORLD);
 }
 
 void requestDock(){

@@ -57,11 +57,12 @@ extern State stan;
 
 struct packet{
     int ts;
+    int tag;
     int src;
     int data;
 };
 
-#define NITEMS 3
+#define NITEMS 4
 
 extern int MAX_INT;
 

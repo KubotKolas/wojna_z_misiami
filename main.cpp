@@ -77,13 +77,14 @@ void inicjuj_typ_pakietu()
        brzydzimy się czymś w rodzaju MPI_Send(&typ, sizeof(pakiet_t), MPI_BYTE....
     */
     /* sklejone z stackoverflow */
-    int       blocklengths[NITEMS] = {1,1,1};
-    MPI_Datatype typy[NITEMS] = {MPI_INT, MPI_INT, MPI_INT};
+    int       blocklengths[NITEMS] = {1,1,1, 1};
+    MPI_Datatype typy[NITEMS] = {MPI_INT, MPI_INT, MPI_INT, MPI_INT};
 
     MPI_Aint     offsets[NITEMS]; 
     offsets[0] = offsetof(packet, ts);
-    offsets[1] = offsetof(packet, src);
-    offsets[2] = offsetof(packet, data);
+    offsets[1] = offsetof(packet, tag);
+    offsets[2] = offsetof(packet, src);
+    offsets[3] = offsetof(packet, data);
 
     MPI_Type_create_struct(NITEMS, blocklengths, offsets, typy, &MPI_PAKIET_T);
 

@@ -1,5 +1,6 @@
 #pragma once
 
+#include "defines.hpp"
 void *startKomWatek(void *ptr);
 
 void requestMech(int n);

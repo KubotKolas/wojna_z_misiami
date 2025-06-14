@@ -102,6 +102,7 @@ size	main.cpp	/^int rank, size;$/;"	v	typeref:typename:int
 src	defines.hpp	/^    int src;$/;"	m	struct:packet	typeref:typename:int
 stan	defines.cpp	/^State stan=INIT;$/;"	v	typeref:typename:State
 startKomWatek	thread_comm.cpp	/^void *startKomWatek(void *ptr)$/;"	f	typeref:typename:void *
+tag	defines.hpp	/^    int tag;$/;"	m	struct:packet	typeref:typename:int
 tags	Makefile	/^tags: ${SOURCES} ${HEADERS}$/;"	t
 threadKom	main.cpp	/^pthread_t threadKom;$/;"	v	typeref:typename:pthread_t
 tid	thread_main.cpp	/^int tid;$/;"	v	typeref:typename:int
