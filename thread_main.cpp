@@ -46,9 +46,10 @@ void mainLoop(int docks, int mechs, int proc_number){
                 break;
             case AWAIT_MECH:
             // TODO: to implement
+                debug("Mech counter: %d, waiting: %d, Mech_req_queue: %d", mech_counter, waiting, mech_requests.size())
                 if (mech_counter < dmg){
                     if(!waiting){
-                        requestMech(dmg-mech_counter);
+                        requestMech(dmg);
                         waiting = 1;
                     }
                 }

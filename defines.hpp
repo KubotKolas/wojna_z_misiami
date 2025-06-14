@@ -77,3 +77,5 @@ using request = std::pair<int, int>;
 
 extern std::priority_queue<request, std::vector<request>, std::greater<request>> dock_requests;
 extern std::priority_queue<request, std::vector<request>, std::greater<request>> mech_requests;
+
+extern int proc_number;

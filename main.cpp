@@ -37,7 +37,6 @@ int main(int argc, char **argv){
 
     int d = 4;
     int m = 15;
-    int proc_number;
     MPI_Comm_size(MPI_COMM_WORLD, &proc_number);
     mainLoop(d, m, proc_number); // możesz także wcisnąć ctrl-] na nazwie funkcji
 		// działa, bo używamy ctags (zob Makefile)
