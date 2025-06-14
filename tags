@@ -78,6 +78,7 @@ debug	defines.hpp	/^#define debug(/;"	d
 dmg	thread_main.cpp	/^int dmg = 0;$/;"	v	typeref:typename:int
 dock_counter	defines.cpp	/^int dock_counter = 0;$/;"	v	typeref:typename:int
 dock_requests	defines.cpp	/^std::priority_queue<request, std::vector<request>, std::greater<request>> dock_requests;$/;"	v	typeref:typename:std::priority_queue<request,std::vector<request>,std::greater<request>>
+handleMess	thread_comm.cpp	/^void handleMess(packet* pakiet, MPI_Status* status){$/;"	f	typeref:typename:void
 inicjuj_typ_pakietu	main.cpp	/^void inicjuj_typ_pakietu()$/;"	f	typeref:typename:void
 main	Makefile	/^main: $(SOURCES) $(HEADERS) Makefile$/;"	t
 main	main.cpp	/^int main(int argc, char **argv){$/;"	f	typeref:typename:int
