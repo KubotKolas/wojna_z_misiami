@@ -36,7 +36,7 @@ int main(int argc, char **argv){
      //  TODO: pobrać dane z terminala
 
     int d = 4;
-    int m = 15;
+    int m = 20;
     MPI_Comm_size(MPI_COMM_WORLD, &proc_number);
     mainLoop(d, m, proc_number); // możesz także wcisnąć ctrl-] na nazwie funkcji
 		// działa, bo używamy ctags (zob Makefile)
