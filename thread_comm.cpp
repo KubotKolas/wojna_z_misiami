@@ -106,10 +106,12 @@ void handleMess(packet *pakiet, MPI_Status *status) {
   case T_DOCK:
     // TODO: test
     dock_counter += pakiet->data;
+    checkDockQueue();
     break;
   case T_MECH:
     // TODO: test
     mech_counter += pakiet->data;
+    checkMechQueue();
     break;
   default:
     // Unknown message type; throw an error

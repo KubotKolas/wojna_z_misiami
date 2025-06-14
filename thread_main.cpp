@@ -38,6 +38,8 @@ void mainLoop(int docks, int mechs, int proc_number){
                 if (dmg == 0){
                     dmg = rollDmg(mechs);
                     sleep(d_sleep(gen));
+                    // checkMechQueue();
+                    // checkDockQueue();
                 }
                 else {
                     stan = AWAIT_MECH;
