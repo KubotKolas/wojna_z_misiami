@@ -30,6 +30,8 @@ void mainLoop(int docks, int mechs, int proc_number){
                 if (tid <= mechs % proc_number){
                     mech_counter += 1;
                 }
+                debug("T_DOCK: %d, T_MECH: %d", dock_counter, mech_counter)
+                stan = IDLE;
                 break;
             case IDLE:
             // TODO: to implement
@@ -40,6 +42,7 @@ void mainLoop(int docks, int mechs, int proc_number){
                 else {
                     stan = AWAIT_MECH;
                 }
+                debug("Dmg: %d", dmg)
                 break;
             case AWAIT_MECH:
             // TODO: to implement

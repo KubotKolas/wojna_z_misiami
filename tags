@@ -11,6 +11,8 @@
 !_TAG_FIELD_DESCRIPTION!C++	name	/aliased names/
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_KIND_DESCRIPTION!C++	M,module	/modules/
+!_TAG_KIND_DESCRIPTION!C++	P,partition	/partitions/
 !_TAG_KIND_DESCRIPTION!C++	c,class	/classes/
 !_TAG_KIND_DESCRIPTION!C++	d,macro	/macro definitions/
 !_TAG_KIND_DESCRIPTION!C++	e,enumerator	/enumerators (values inside an enumeration)/
@@ -29,18 +31,23 @@
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
-!_TAG_OUTPUT_VERSION	0.0	/current.age/
+!_TAG_OUTPUT_VERSION	1.1	/current.age/
 !_TAG_PARSER_VERSION!C++	1.1	/current.age/
-!_TAG_PARSER_VERSION!Make	0.0	/current.age/
+!_TAG_PARSER_VERSION!Make	1.1	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/home/kubot/put/roz/wojna_z_misiami/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	6.1.0	/v6.1.0/
+!_TAG_PROGRAM_VERSION	6.2.0	/v6.2.0/
+!_TAG_ROLE_DESCRIPTION!C++!header	exported	/exported with "exported imported ..."/
+!_TAG_ROLE_DESCRIPTION!C++!header	imported	/imported with "imported ..."/
 !_TAG_ROLE_DESCRIPTION!C++!header	local	/local header/
 !_TAG_ROLE_DESCRIPTION!C++!header	system	/system header/
 !_TAG_ROLE_DESCRIPTION!C++!macro	undef	/undefined/
+!_TAG_ROLE_DESCRIPTION!C++!module	imported	/imported with "imported ..."/
+!_TAG_ROLE_DESCRIPTION!C++!module	partOwner	/used for specifying a partition/
+!_TAG_ROLE_DESCRIPTION!C++!partition	imported	/imported with "imported ..."/
 !_TAG_ROLE_DESCRIPTION!Make!makefile	included	/included/
 !_TAG_ROLE_DESCRIPTION!Make!makefile	optional	/optionally included/
 AWAIT_DOCK	defines.hpp	/^    AWAIT_DOCK,$/;"	e	enum:State
@@ -50,7 +57,8 @@ FLAGS	Makefile	/^FLAGS=-DDEBUG -g$/;"	m
 HEADERS	Makefile	/^HEADERS=$(SOURCES:.c=.hpp)$/;"	m
 IDLE	defines.hpp	/^    IDLE,$/;"	e	enum:State
 INIT	defines.hpp	/^    INIT,$/;"	e	enum:State
-MPI_PAKIET_T	defines.cpp	/^MPI_Datatype MPI_PAKIET_T;/;"	v	typeref:typename:MPI_Datatype
+MAX_INT	defines.cpp	/^int MAX_INT = std::numeric_limits<int>::max();$/;"	v	typeref:typename:int
+MPI_PAKIET_T	defines.cpp	/^MPI_Datatype MPI_PAKIET_T;$/;"	v	typeref:typename:MPI_Datatype
 MessType	defines.hpp	/^enum MessType{$/;"	g
 NITEMS	defines.hpp	/^#define NITEMS /;"	d
 REPAIR	defines.hpp	/^    REPAIR,$/;"	e	enum:State
@@ -64,20 +72,39 @@ all	Makefile	/^all: main tags$/;"	t
 check_thread_support	main.cpp	/^void check_thread_support(int provided)$/;"	f	typeref:typename:void
 clean	Makefile	/^clean:$/;"	t
 clear	Makefile	/^clear: clean$/;"	t
+d_sleep	thread_main.cpp	/^std::uniform_int_distribution<> d_sleep(1, 5);$/;"	v	typeref:typename:std::uniform_int_distribution<>
 data	defines.hpp	/^    int data;$/;"	m	struct:packet	typeref:typename:int
 debug	defines.hpp	/^#define debug(/;"	d
+dmg	thread_main.cpp	/^int dmg = 0;$/;"	v	typeref:typename:int
+dock_counter	defines.cpp	/^int dock_counter = 0;$/;"	v	typeref:typename:int
+dock_requests	defines.cpp	/^std::priority_queue<request, std::vector<request>, std::greater<request>> dock_requests;$/;"	v	typeref:typename:std::priority_queue<request,std::vector<request>,std::greater<request>>
 inicjuj_typ_pakietu	main.cpp	/^void inicjuj_typ_pakietu()$/;"	f	typeref:typename:void
 main	Makefile	/^main: $(SOURCES) $(HEADERS) Makefile$/;"	t
 main	main.cpp	/^int main(int argc, char **argv){$/;"	f	typeref:typename:int
-mainLoop	thread_main.cpp	/^void mainLoop(){$/;"	f	typeref:typename:void
+mainLoop	thread_main.cpp	/^void mainLoop(int docks, int mechs, int proc_number){$/;"	f	typeref:typename:void
+mech_counter	defines.cpp	/^int mech_counter = 0;/;"	v	typeref:typename:int
+mech_requests	defines.cpp	/^std::priority_queue<request, std::vector<request>, std::greater<request>> mech_requests;$/;"	v	typeref:typename:std::priority_queue<request,std::vector<request>,std::greater<request>>
+my_priority	thread_main.cpp	/^int my_priority = MAX_INT;$/;"	v	typeref:typename:int
 packet	defines.hpp	/^struct packet{$/;"	s
 println	defines.hpp	/^#define println(/;"	d
 rank	main.cpp	/^int rank, size;$/;"	v	typeref:typename:int
+rd	thread_main.cpp	/^std::random_device rd;$/;"	v	typeref:typename:std::random_device
+repair	thread_main.cpp	/^int repair(){$/;"	f	typeref:typename:int
+repair_progress	thread_main.cpp	/^int repair_progress = 0;$/;"	v	typeref:typename:int
+request	defines.hpp	/^using request = std::pair<int, int>;$/;"	t	typeref:typename:std::pair<int,int>
+requestDock	thread_comm.cpp	/^void requestDock(){$/;"	f	typeref:typename:void
+requestMech	thread_comm.cpp	/^void requestMech(int n){$/;"	f	typeref:typename:void
+rollDmg	thread_main.cpp	/^int rollDmg(int upper_limit){$/;"	f	typeref:typename:int
 run	Makefile	/^run: main Makefile tags$/;"	t
+sendDock	thread_comm.cpp	/^void sendDock(int dest, int n){$/;"	f	typeref:typename:void
+sendMech	thread_comm.cpp	/^void sendMech(int dest, int n){$/;"	f	typeref:typename:void
 size	main.cpp	/^int rank, size;$/;"	v	typeref:typename:int
 src	defines.hpp	/^    int src;$/;"	m	struct:packet	typeref:typename:int
 stan	defines.cpp	/^State stan=INIT;$/;"	v	typeref:typename:State
 startKomWatek	thread_comm.cpp	/^void *startKomWatek(void *ptr)$/;"	f	typeref:typename:void *
 tags	Makefile	/^tags: ${SOURCES} ${HEADERS}$/;"	t
 threadKom	main.cpp	/^pthread_t threadKom;$/;"	v	typeref:typename:pthread_t
+tid	thread_main.cpp	/^int tid;$/;"	v	typeref:typename:int
+timer	thread_main.cpp	/^int timer = 0;$/;"	v	typeref:typename:int
 ts	defines.hpp	/^    int ts;$/;"	m	struct:packet	typeref:typename:int
+waiting	thread_main.cpp	/^int waiting = 0;$/;"	v	typeref:typename:int
