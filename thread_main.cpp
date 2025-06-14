@@ -46,7 +46,7 @@ void mainLoop(int docks, int mechs, int proc_number){
                 break;
             case AWAIT_MECH:
             // TODO: to implement
-                debug("Mech counter: %d, waiting: %d, Mech_req_queue: %d, my_priority: %d", mech_counter, waiting, mech_requests.size(), my_priority)
+                debug("Mech counter: %d, waiting: %d, Mech_req_queue: %d, my last priority: %d", mech_counter, waiting, mech_requests.size(), my_priority)
                 if (mech_counter < dmg){
                     if(!waiting){
                         requestMech(dmg);
@@ -56,7 +56,9 @@ void mainLoop(int docks, int mechs, int proc_number){
                 else {
                     waiting = 0;
                     stan = AWAIT_DOCK;
+                    my_priority = MAX_INT;
                 }
+                checkMechQueue();
                 break;
             case AWAIT_DOCK:
             // TODO: to implement
@@ -69,7 +71,9 @@ void mainLoop(int docks, int mechs, int proc_number){
                     else {
                         waiting = 0;
                         stan = REPAIR;
+                        my_priority = MAX_INT;
                     }
+                checkDockQueue();
                 break;
             case REPAIR:
             // TODO: to implement
