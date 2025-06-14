@@ -106,7 +106,6 @@ startKomWatek	thread_comm.cpp	/^void *startKomWatek(void *ptr)$/;"	f	typeref:typ
 tag	defines.hpp	/^    int tag;$/;"	m	struct:packet	typeref:typename:int
 tags	Makefile	/^tags: ${SOURCES} ${HEADERS}$/;"	t
 threadKom	main.cpp	/^pthread_t threadKom;$/;"	v	typeref:typename:pthread_t
-tid	thread_main.cpp	/^int tid;$/;"	v	typeref:typename:int
 timer	thread_main.cpp	/^int timer = 0;$/;"	v	typeref:typename:int
 ts	defines.hpp	/^    int ts;$/;"	m	struct:packet	typeref:typename:int
 waiting	thread_main.cpp	/^int waiting = 0;$/;"	v	typeref:typename:int

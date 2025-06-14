@@ -4,7 +4,7 @@
 #include "thread_comm.hpp"
 
 
-int tid;
+// int tid;
 int timer = 0;
 int my_priority = MAX_INT;
 int dmg = 0;
@@ -15,19 +15,20 @@ std::mt19937 gen(rd());
 std::uniform_int_distribution<> d_sleep(1, 5);
 
 void mainLoop(int docks, int mechs, int proc_number){
-    MPI_Comm_rank(MPI_COMM_WORLD, &tid);
+    // MPI_Comm_rank(MPI_COMM_WORLD, &tid);
 
     while (stan != FINISHED) {
         debug("current state - %d", stan)
         switch (stan) {
             case INIT:
             // TODO: to implement
+                debug("Rank: %d", rank)
                 dock_counter = docks / proc_number;
-                if (tid <= (docks % proc_number)){
+                if (rank <= (docks % proc_number)){
                     dock_counter += 1;
                 }
                 mech_counter = mechs / proc_number;
-                if (tid <= (mechs % proc_number)){
+                if (rank <= (mechs % proc_number)){
                     mech_counter += 1;
                 }
                 debug("Docks: %d, Mechs:%d, T_DOCK: %d, T_MECH: %d", docks, mechs, dock_counter, mech_counter)
@@ -80,7 +81,7 @@ void mainLoop(int docks, int mechs, int proc_number){
             default:
             // Impossible state; raise error
             // TODO: to implement
-                debug("[!] [id:%d] Enteres impossible state!", tid)
+                debug("[!] Enteres impossible state")
                 break;
             
         }
