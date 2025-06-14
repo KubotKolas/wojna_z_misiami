@@ -23,11 +23,11 @@ void mainLoop(int docks, int mechs, int proc_number){
             case INIT:
             // TODO: to implement
                 dock_counter = docks / proc_number;
-                if (tid <= docks % proc_number){
+                if (tid <= (docks % proc_number)){
                     dock_counter += 1;
                 }
                 mech_counter = mechs / proc_number;
-                if (tid <= mechs % proc_number){
+                if (tid <= (mechs % proc_number)){
                     mech_counter += 1;
                 }
                 debug("Docks: %d, Mechs:%d, T_DOCK: %d, T_MECH: %d", docks, mechs, dock_counter, mech_counter)
