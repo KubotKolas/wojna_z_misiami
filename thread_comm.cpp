@@ -25,7 +25,7 @@ void *startKomWatek(void *ptr) {
 void requestMech(int n) {
   debug("Requesting %d mechs", n) packet p;
   timer += 1;
-  my_priority = timer;
+  mech_priority = timer;
   p.ts = timer;
   p.tag = REQ_MECH;
   p.data = n;
@@ -40,7 +40,7 @@ void requestMech(int n) {
 void requestDock() {
   packet p;
   timer += 1;
-  my_priority = timer;
+  dock_priority = timer;
   p.ts = timer;
   p.tag = REQ_DOCK;
   p.data = 1;
@@ -133,19 +133,19 @@ void checkDockQueue() {
   {
     std::lock_guard<std::mutex> g(dock_mtx);
     if (dock_counter > 0 && !dock_requests.empty()) {
-      if (dock_requests.top().first < my_priority) {
+      if (dock_requests.top().first < dock_priority) {
         int dest = dock_requests.top().second;
-        sendDock(dest, dock_counter);
+        sendDock(dest, 1);
         dock_requests.pop();
-        dock_counter = 0;
+        dock_counter -= 1;
         return;
       }
-      if (dock_requests.top().first == my_priority &&
+      if (dock_requests.top().first == dock_priority &&
           dock_requests.top().second < rank) {
         int dest = dock_requests.top().second;
-        sendDock(dest, dock_counter);
+        sendDock(dest, 1);
         dock_requests.pop();
-        dock_counter = 0;
+        dock_counter -= 1;
         return;
       }
     }
@@ -156,14 +156,14 @@ void checkMechQueue() {
   {
     std::lock_guard<std::mutex> g(mech_mtx);
     if (mech_counter > 0 && !mech_requests.empty()) {
-      if (mech_requests.top().first < my_priority) {
+      if (mech_requests.top().first < mech_priority) {
         int dest = mech_requests.top().second;
         sendMech(dest, mech_counter);
         mech_requests.pop();
         mech_counter = 0;
         return;
       }
-      if (mech_requests.top().first == my_priority &&
+      if (mech_requests.top().first == mech_priority &&
           mech_requests.top().second < rank) {
         int dest = mech_requests.top().second;
         sendMech(dest, mech_counter);

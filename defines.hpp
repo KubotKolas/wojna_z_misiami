@@ -72,7 +72,8 @@ extern MPI_Datatype MPI_PAKIET_T;
 extern int timer;
 extern int dock_counter;
 extern int mech_counter;
-extern int my_priority;
+extern int dock_priority;
+extern int mech_priority;
 
 using request = std::pair<int, int>;
 

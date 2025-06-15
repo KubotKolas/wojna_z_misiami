@@ -6,7 +6,8 @@
 
 // int tid;
 int timer = 0;
-int my_priority = MAX_INT;
+int dock_priority = MAX_INT;
+int mech_priority = MAX_INT;
 int dmg = 0;
 int repair_progress = 0;
 int waiting = 0;
@@ -48,9 +49,14 @@ void mainLoop(int docks, int mechs, int proc_number){
                 break;
             case AWAIT_MECH:
             // TODO: to implement
-                // debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d", mech_counter, waiting, mech_requests.size(), my_priority)
+                if (mech_requests.empty()) {
+                    debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d", mech_counter, waiting, mech_requests.size(), mech_priority)
+                }
+                else {
+                    debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d, queue.top(): (%d, %d)", mech_counter, waiting, mech_requests.size(), mech_priority, mech_requests.top().first, mech_requests.top().second)
+                }
                 // debug("Dock counter: %d", dock_counter)
-                debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), my_priority)
+                // debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
                 if (mech_counter < dmg){
                     if(!waiting){
                         requestMech(dmg);
@@ -60,14 +66,14 @@ void mainLoop(int docks, int mechs, int proc_number){
                 else {
                     waiting = 0;
                     stan = AWAIT_DOCK;
-                    my_priority = MAX_INT;
+                    mech_priority = MAX_INT;
                 }
                 checkMechQueue();
                 checkDockQueue();
                 break;
             case AWAIT_DOCK:
             // TODO: to implement
-                debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), my_priority)
+                // debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
                 if (dock_counter == 0){
                     if(!waiting){
                         requestDock();
@@ -77,7 +83,7 @@ void mainLoop(int docks, int mechs, int proc_number){
                 else {
                     waiting = 0;
                     stan = REPAIR;
-                    my_priority = MAX_INT;
+                    dock_priority = MAX_INT;
                 }
                 checkDockQueue();
                 break;
