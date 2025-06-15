@@ -154,23 +154,20 @@ void checkDockQueue() {
   {
     std::lock_guard<std::mutex> g(dock_mtx);
     if (dock_counter > 0 && !dock_requests.empty()) {
-      while (dock_counter > 0 && dock_requests.top().first < dock_priority) {
-        if (dock_requests.top().first < dock_priority) {
-          int dest = dock_requests.top().second;
-          sendDock(dest, 1);
-          dock_requests.pop();
-          dock_counter -= 1;
-          return;
-        }
-        if (dock_requests.top().first == dock_priority &&
-            dock_requests.top().second < rank) {
-          int dest = dock_requests.top().second;
-          sendDock(dest, 1);
-          dock_requests.pop();
-          dock_counter -= 1;
-          return;
-        }
-      
+      if (dock_requests.top().first < dock_priority) {
+        int dest = dock_requests.top().second;
+        sendDock(dest, dock_counter);
+        dock_requests.pop();
+        dock_counter = 0;
+        return;
+      }
+      if (dock_requests.top().first == dock_priority &&
+          dock_requests.top().second < rank) {
+        int dest = dock_requests.top().second;
+        sendDock(dest, dock_counter);
+        dock_requests.pop();
+        dock_counter = 0;
+        return;
       }
     }
   }
