@@ -56,34 +56,40 @@ void mainLoop(int docks, int mechs, int proc_number){
                     debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d, queue.top(): (%d, %d)", mech_counter, waiting, mech_requests.size(), mech_priority, mech_requests.top().first, mech_requests.top().second)
                 }
                 // debug("Dock counter: %d", dock_counter)
-                // debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
-                if (mech_counter < dmg){
-                    if(!waiting){
-                        requestMech(dmg);
-                        waiting = 1;
+                debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
+                {
+                    std::lock_guard<std::mutex> g(mech_mtx);
+                    if (mech_counter < dmg){
+                        if(!waiting){
+                            requestMech(dmg);
+                            waiting = 1;
+                        }
                     }
-                }
-                else {
-                    waiting = 0;
-                    stan = AWAIT_DOCK;
-                    mech_priority = MAX_INT;
+                    else {
+                        waiting = 0;
+                        stan = AWAIT_DOCK;
+                        mech_priority = MAX_INT;
+                    }
                 }
                 checkMechQueue();
                 checkDockQueue();
                 break;
             case AWAIT_DOCK:
             // TODO: to implement
-                // debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
-                if (dock_counter == 0){
-                    if(!waiting){
-                        requestDock();
-                        waiting = 1;
+                debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
+                {
+                    std::lock_guard<std::mutex> g(dock_mtx);
+                    if (dock_counter == 0){
+                        if(!waiting){
+                            requestDock();
+                            waiting = 1;
+                        }
                     }
-                }
-                else {
-                    waiting = 0;
-                    stan = REPAIR;
-                    dock_priority = MAX_INT;
+                    else {
+                        waiting = 0;
+                        stan = REPAIR;
+                        dock_priority = MAX_INT;
+                    }
                 }
                 checkDockQueue();
                 break;

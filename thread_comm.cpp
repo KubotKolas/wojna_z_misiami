@@ -87,7 +87,7 @@ void handleMess(packet *pakiet, MPI_Status *status) {
     switch (stan) {
     case IDLE:
     case AWAIT_MECH:
-    case AWAIT_DOCK:
+    // case AWAIT_DOCK:
       checkDockQueue();
       break;
     default:
@@ -112,13 +112,34 @@ void handleMess(packet *pakiet, MPI_Status *status) {
     break;
   case T_DOCK:
     // TODO: test
-    dock_counter += pakiet->data;
-    checkDockQueue();
+    {
+      std::lock_guard<std::mutex> g(dock_mtx);
+      dock_counter += pakiet->data;
+    }
+    switch (stan) {
+    case IDLE:
+    case AWAIT_MECH:
+    // case AWAIT_DOCK:
+      checkDockQueue();
+      break;
+    default:
+      break;
+    }
     break;
   case T_MECH:
     // TODO: test
-    mech_counter += pakiet->data;
-    checkMechQueue();
+    {
+      std::lock_guard<std::mutex> g(mech_mtx);
+      mech_counter += pakiet->data;
+    }
+    switch (stan) {
+    case IDLE:
+    case AWAIT_MECH:
+      checkMechQueue();
+      break;
+    default:
+      break;
+    }
     break;
   default:
     // Unknown message type; throw an error
@@ -133,20 +154,23 @@ void checkDockQueue() {
   {
     std::lock_guard<std::mutex> g(dock_mtx);
     if (dock_counter > 0 && !dock_requests.empty()) {
-      if (dock_requests.top().first < dock_priority) {
-        int dest = dock_requests.top().second;
-        sendDock(dest, 1);
-        dock_requests.pop();
-        dock_counter -= 1;
-        return;
-      }
-      if (dock_requests.top().first == dock_priority &&
-          dock_requests.top().second < rank) {
-        int dest = dock_requests.top().second;
-        sendDock(dest, 1);
-        dock_requests.pop();
-        dock_counter -= 1;
-        return;
+      while (dock_counter > 0 && dock_requests.top().first < dock_priority) {
+        if (dock_requests.top().first < dock_priority) {
+          int dest = dock_requests.top().second;
+          sendDock(dest, 1);
+          dock_requests.pop();
+          dock_counter -= 1;
+          return;
+        }
+        if (dock_requests.top().first == dock_priority &&
+            dock_requests.top().second < rank) {
+          int dest = dock_requests.top().second;
+          sendDock(dest, 1);
+          dock_requests.pop();
+          dock_counter -= 1;
+          return;
+        }
+      
       }
     }
   }
