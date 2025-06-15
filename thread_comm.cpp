@@ -2,6 +2,7 @@
 #include "defines.hpp"
 #include "includes.hpp"
 #include <mpi.h>
+#include <mutex>
 
 void *startKomWatek(void *ptr) {
   MPI_Status status;
@@ -79,7 +80,10 @@ void handleMess(packet *pakiet, MPI_Status *status) {
   case REQ_DOCK:
     // TODO: test
     // debug("Recieved dock req")
-    dock_requests.push({pakiet->ts, pakiet->src});
+    {
+      std::lock_guard<std::mutex> g(dock_mtx);
+      dock_requests.push({pakiet->ts, pakiet->src});
+    }
     switch (stan) {
     case IDLE:
     case AWAIT_MECH:
@@ -93,11 +97,14 @@ void handleMess(packet *pakiet, MPI_Status *status) {
   case REQ_MECH:
     // TODO: test
     // debug("Recieved mech req")
-    mech_requests.push({pakiet->ts, pakiet->src});
+    {
+      std::lock_guard<std::mutex> g(mech_mtx);
+      mech_requests.push({pakiet->ts, pakiet->src});
+    }
     switch (stan) {
     case IDLE:
     case AWAIT_MECH:
-
+      checkMechQueue();
       break;
     default:
       break;
@@ -123,41 +130,47 @@ void handleMess(packet *pakiet, MPI_Status *status) {
 }
 
 void checkDockQueue() {
-  if (dock_counter > 0 && !dock_requests.empty()) {
-    if (dock_requests.top().first < my_priority) {
-      int dest = dock_requests.top().second;
-      sendDock(dest, dock_counter);
-      dock_requests.pop();
-      dock_counter = 0;
-      return;
-    }
-    if (dock_requests.top().first == my_priority &&
-        dock_requests.top().second < rank) {
-      int dest = dock_requests.top().second;
-      sendDock(dest, dock_counter);
-      dock_requests.pop();
-      dock_counter = 0;
-      return;
+  {
+    std::lock_guard<std::mutex> g(dock_mtx);
+    if (dock_counter > 0 && !dock_requests.empty()) {
+      if (dock_requests.top().first < my_priority) {
+        int dest = dock_requests.top().second;
+        sendDock(dest, dock_counter);
+        dock_requests.pop();
+        dock_counter = 0;
+        return;
+      }
+      if (dock_requests.top().first == my_priority &&
+          dock_requests.top().second < rank) {
+        int dest = dock_requests.top().second;
+        sendDock(dest, dock_counter);
+        dock_requests.pop();
+        dock_counter = 0;
+        return;
+      }
     }
   }
 }
 
 void checkMechQueue() {
-  if (mech_counter > 0 && !mech_requests.empty()) {
-    if (mech_requests.top().first < my_priority) {
-      int dest = mech_requests.top().second;
-      sendMech(dest, mech_counter);
-      mech_requests.pop();
-      mech_counter = 0;
-      return;
-    }
-    if (mech_requests.top().first == my_priority &&
-        mech_requests.top().second < rank) {
-      int dest = mech_requests.top().second;
-      sendMech(dest, mech_counter);
-      mech_requests.pop();
-      mech_counter = 0;
-      return;
+  {
+    std::lock_guard<std::mutex> g(mech_mtx);
+    if (mech_counter > 0 && !mech_requests.empty()) {
+      if (mech_requests.top().first < my_priority) {
+        int dest = mech_requests.top().second;
+        sendMech(dest, mech_counter);
+        mech_requests.pop();
+        mech_counter = 0;
+        return;
+      }
+      if (mech_requests.top().first == my_priority &&
+          mech_requests.top().second < rank) {
+        int dest = mech_requests.top().second;
+        sendMech(dest, mech_counter);
+        mech_requests.pop();
+        mech_counter = 0;
+        return;
+      }
     }
   }
 }

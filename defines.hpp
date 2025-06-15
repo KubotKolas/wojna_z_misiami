@@ -20,6 +20,7 @@
 #pragma once
 #include <functional>
 #include <mpi.h>
+#include <mutex>
 #include <queue>
 #include <utility>
 #include <vector>
@@ -79,3 +80,6 @@ extern std::priority_queue<request, std::vector<request>, std::greater<request>>
 extern std::priority_queue<request, std::vector<request>, std::greater<request>> mech_requests;
 
 extern int proc_number;
+
+extern std::mutex dock_mtx;
+extern std::mutex mech_mtx;
