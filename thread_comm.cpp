@@ -23,7 +23,8 @@ void *startKomWatek(void *ptr) {
 }
 
 void requestMech(int n) {
-  debug("Requesting %d mechs", n) packet p;
+  debug("Requesting %d mechs", n);
+  packet p;
   timer += 1;
   mech_priority = timer;
   p.ts = timer;
@@ -38,6 +39,7 @@ void requestMech(int n) {
 }
 
 void requestDock() {
+  debug("Requesting a dock");
   packet p;
   timer += 1;
   dock_priority = timer;

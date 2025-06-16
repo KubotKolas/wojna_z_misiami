@@ -57,6 +57,8 @@ void mainLoop(int docks, int mechs, int proc_number){
                 }
                 // debug("Dock counter: %d", dock_counter)
                 debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
+                checkMechQueue();
+                checkDockQueue();
                 {
                     std::lock_guard<std::mutex> g(mech_mtx);
                     if (mech_counter < dmg){
@@ -71,8 +73,6 @@ void mainLoop(int docks, int mechs, int proc_number){
                         mech_priority = MAX_INT;
                     }
                 }
-                checkMechQueue();
-                checkDockQueue();
                 break;
             case AWAIT_DOCK:
             // TODO: to implement
