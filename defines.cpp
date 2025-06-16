@@ -11,6 +11,8 @@ int mech_counter = 0;
 
 int proc_number = 0;
 
+int dmg = 0;
+
 std::mutex dock_mtx;
 std::mutex mech_mtx;
 

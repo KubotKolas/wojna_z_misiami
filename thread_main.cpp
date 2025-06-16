@@ -6,7 +6,7 @@
 int timer = 0;
 int dock_priority = MAX_INT;
 int mech_priority = MAX_INT;
-int dmg = 0;
+//int dmg = 0;
 int repair_progress = 0;
 int waiting = 0;
 std::random_device rd;
@@ -67,7 +67,7 @@ void mainLoop(int docks, int mechs, int proc_number)
                 {
                     if (!waiting)
                     {
-                        requestMech(dmg);
+                        requestMech(dmg-mech_counter);
                         waiting = 1;
                     }
                 }
@@ -102,7 +102,7 @@ void mainLoop(int docks, int mechs, int proc_number)
             break;
         case REPAIR:
             repair_progress += repair();
-            if (repair_progress >= 100)
+            if (repair_progress >= 50)
             {
                 dmg = 0;
                 repair_progress = 0;
@@ -120,12 +120,12 @@ void mainLoop(int docks, int mechs, int proc_number)
 
 int rollDmg(int upper_limit)
 {
-    std::uniform_int_distribution<> d_dmg(1, upper_limit);
+    std::uniform_int_distribution<> d_dmg(1, upper_limit/2);
     return d_dmg(gen);
 }
 
 int repair()
 {
-    std::uniform_int_distribution<> d_repair(1, 25);
+    std::uniform_int_distribution<> d_repair(10, 25);
     return d_repair(gen);
 }

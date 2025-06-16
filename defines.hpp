@@ -56,6 +56,7 @@ extern int dock_counter;
 extern int mech_counter;
 extern int dock_priority;
 extern int mech_priority;
+extern int dmg;
 
 using request = std::pair<int, int>;
 

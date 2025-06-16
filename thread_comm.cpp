@@ -131,6 +131,11 @@ void handleMess(packet *pakiet, MPI_Status *status)
         {
             std::lock_guard<std::mutex> g(dock_mtx);
             dock_counter += pakiet->data;
+            if(dock_counter > 1)
+            {
+                sendDock(pakiet->src, dock_counter-1);
+                dock_counter = 1;
+            }
         }
         switch (stan)
         {
@@ -148,6 +153,11 @@ void handleMess(packet *pakiet, MPI_Status *status)
         {
             std::lock_guard<std::mutex> g(mech_mtx);
             mech_counter += pakiet->data;
+            if(mech_counter>dmg)
+            {
+                sendMech(pakiet->src, mech_counter-dmg);
+                mech_counter = dmg;
+            }
         }
         switch (stan)
         {
@@ -170,6 +180,7 @@ void handleMess(packet *pakiet, MPI_Status *status)
 
 void checkDockQueue()
 {
+    if(stan!=REPAIR)
     {
         std::lock_guard<std::mutex> g(dock_mtx);
         if (dock_counter > 0 && !dock_requests.empty())
@@ -177,18 +188,18 @@ void checkDockQueue()
             if (dock_requests.top().first < dock_priority)
             {
                 int dest = dock_requests.top().second;
-                sendDock(dest, dock_counter);
+                sendDock(dest, 1);
                 dock_requests.pop();
-                dock_counter = 0;
+                dock_counter -= 1;
                 return;
             }
             if (dock_requests.top().first == dock_priority &&
                 dock_requests.top().second < rank)
             {
                 int dest = dock_requests.top().second;
-                sendDock(dest, dock_counter);
+                sendDock(dest, 1);
                 dock_requests.pop();
-                dock_counter = 0;
+                dock_counter -= 1;
                 return;
             }
         }
@@ -197,6 +208,7 @@ void checkDockQueue()
 
 void checkMechQueue()
 {
+    if(stan!=REPAIR)
     {
         std::lock_guard<std::mutex> g(mech_mtx);
         if (mech_counter > 0 && !mech_requests.empty())
