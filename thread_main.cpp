@@ -18,7 +18,7 @@ void mainLoop(int docks, int mechs, int proc_number)
     while (stan != FINISHED)
     {
         if (stan == 4) debug("\t\t\t\t\t\t\t\t\t\tIS IN REPAIR");
-        debug("state: %s\tmechs: %d\tdocks - %d", states[stan], mech_counter, dock_counter);
+        debug("state: %s\tdamage: %d\tmechs: %d\tdocks - %d", states[stan], dmg, mech_counter, dock_counter);
         switch (stan)
         {
         case INIT:
@@ -104,6 +104,7 @@ void mainLoop(int docks, int mechs, int proc_number)
             repair_progress += repair();
             if (repair_progress >= 100)
             {
+                dmg = 0;
                 repair_progress = 0;
                 stan = IDLE;
             }
