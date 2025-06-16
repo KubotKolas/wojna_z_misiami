@@ -114,7 +114,7 @@ void mainLoop(int docks, int mechs, int proc_number){
 
 
 int rollDmg(int upper_limit){
-    std::uniform_int_distribution<> d_dmg(1, upper_limit);
+    std::uniform_int_distribution<> d_dmg(1, upper_limit/2);
     return d_dmg(gen);
 }
 
