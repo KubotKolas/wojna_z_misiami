@@ -1,0 +1,2089 @@
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;34m [4]: current state - 0[0;37m
+[1;34m [4]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+[1;32m [2]: current state - 0[0;37m
+[1;32m [2]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[1;36m [6]: current state - 0[0;37m
+[1;36m [6]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+THREAD SUPPORT: chcemy 3. Co otrzymamy?
+Pełne wsparcie dla wątków
+[0;37m [7]: current state - 0[0;37m
+[0;37m [7]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+[1;35m [5]: current state - 0[0;37m
+[1;35m [5]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+[1;37m [0]: current state - 0[0;37m
+[1;37m [0]: Docks: 1, Mechs:1, T_DOCK: 1, T_MECH: 1[0;37m
+[1;31m [1]: current state - 0[0;37m
+[1;31m [1]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+[1;33m [3]: current state - 0[0;37m
+[1;33m [3]: Docks: 1, Mechs:1, T_DOCK: 0, T_MECH: 0[0;37m
+[1;34m [4]: current state - 1[0;37m
+[1;32m [2]: current state - 1[0;37m
+[1;36m [6]: current state - 1[0;37m
+[0;37m [7]: current state - 1[0;37m
+[1;35m [5]: current state - 1[0;37m
+[1;37m [0]: current state - 1[0;37m
+[1;31m [1]: current state - 1[0;37m
+[1;33m [3]: current state - 1[0;37m
+[1;32m [2]: Dmg: 1[0;37m
+[1;35m [5]: Dmg: 1[0;37m
+[1;32m [2]: current state - 1[0;37m
+[1;32m [2]: Dmg: 1[0;37m
+[1;35m [5]: current state - 1[0;37m
+[1;35m [5]: Dmg: 1[0;37m
+[1;37m [0]: Dmg: 1[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 0, Mech_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: Requesting 1 mechs[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 0, Mech_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: Requesting 1 mechs[0;37m
+[1;36m [6]: Dmg: 1[0;37m
+[1;31m [1]: Dmg: 1[0;37m
+[1;33m [3]: Dmg: 1[0;37m
+[1;37m [0]: current state - 1[0;37m
+[1;37m [0]: Dmg: 1[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 1, waiting: 1, Mech_req_queue: 1, my last priority: 1, queue.top(): (1, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 1, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: Dmg: 1[0;37m
+[1;36m [6]: current state - 1[0;37m
+[1;36m [6]: Dmg: 1[0;37m
+[0;37m [7]: Dmg: 1[0;37m
+[1;31m [1]: current state - 1[0;37m
+[1;31m [1]: Dmg: 1[0;37m
+[1;33m [3]: current state - 1[0;37m
+[1;33m [3]: Dmg: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 0, Mech_req_queue: 1, my last priority: 2147483647, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 1, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;37m [0]: Requesting 1 mechs[0;37m
+[1;32m [2]: current state - 3[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: Requesting a dock[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 2, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 1[0;37m
+[1;34m [4]: Dmg: 1[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 0, Mech_req_queue: 3, my last priority: 2147483647, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: Requesting 1 mechs[0;37m
+[0;37m [7]: current state - 1[0;37m
+[0;37m [7]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 0, Mech_req_queue: 4, my last priority: 2147483647, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: Requesting 1 mechs[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 0, Mech_req_queue: 4, my last priority: 2147483647, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: Requesting 1 mechs[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 3[0;37m
+[1;32m [2]: Dock counter: 1, waiting: 1, Dock_req_queue: 0, my last priority: 7[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: Requesting 1 mechs[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: Requesting 1 mechs[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 1, waiting: 1, Mech_req_queue: 7, my last priority: 1, queue.top(): (1, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 1, queue.top(): (5, 0)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 3[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: Requesting a dock[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 3[0;37m
+[1;35m [5]: Dock counter: 1, waiting: 1, Dock_req_queue: 1, my last priority: 23[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: Dmg: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 1[0;37m
+[1;32m [2]: Dmg: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;32m [2]: Requesting 1 mechs[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 5, queue.top(): (1, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 4[0;37m
+[1;35m [5]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 5, queue.top(): (9, 6)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 1[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 3[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: Requesting a dock[0;37m
+[1;35m [5]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 3[0;37m
+[1;37m [0]: Dock counter: 1, waiting: 1, Dock_req_queue: 1, my last priority: 34[0;37m
+[1;35m [5]: current state - 1[0;37m
+[1;35m [5]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;35m [5]: Requesting 1 mechs[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (9, 6)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 7, my last priority: 26, queue.top(): (5, 0)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 9, queue.top(): (1, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 4[0;37m
+[1;37m [0]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 9, queue.top(): (11, 1)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 3[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 0, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: Requesting a dock[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 3[0;37m
+[1;36m [6]: Dock counter: 1, waiting: 1, Dock_req_queue: 3, my last priority: 61[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 1[0;37m
+[1;37m [0]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 8, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 0, Mech_req_queue: 5, my last priority: 2147483647, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 0, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;37m [0]: Requesting 1 mechs[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 1)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 1)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (11, 3)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 4[0;37m
+[1;36m [6]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 11, queue.top(): (11, 3)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 3[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 0, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: Requesting a dock[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 3[0;37m
+[1;31m [1]: Dock counter: 1, waiting: 1, Dock_req_queue: 4, my last priority: 88[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: Dmg: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 1[0;37m
+[1;36m [6]: Dmg: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 9, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (11, 3)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: Requesting 1 mechs[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (11, 3)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (11, 3)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (11, 3)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (11, 3)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (11, 3)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (11, 3)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 11, queue.top(): (1, 5)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 4[0;37m
+[1;31m [1]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 4)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 11, queue.top(): (14, 4)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 3[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 0, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;33m [3]: Requesting a dock[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;31m [1]: Dmg: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 3[0;37m
+[1;33m [3]: Dock counter: 1, waiting: 1, Dock_req_queue: 5, my last priority: 125[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 1[0;37m
+[1;31m [1]: Dmg: 1[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (14, 4)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 0, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;31m [1]: Requesting 1 mechs[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 10, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 4)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 4)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 4)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 4)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 4)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (14, 7)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 4[0;37m
+[1;33m [3]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 4)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 4)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 1, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 14, queue.top(): (14, 7)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 3[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 0, Dock_req_queue: 6, my last priority: 2147483647[0;37m
+[1;34m [4]: Requesting a dock[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 3[0;37m
+[1;34m [4]: Dock counter: 1, waiting: 1, Dock_req_queue: 6, my last priority: 166[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: Dmg: 1[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 1[0;37m
+[1;33m [3]: Dmg: 1[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 11, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (14, 7)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 0, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;33m [3]: Requesting 1 mechs[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (14, 7)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (14, 7)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (14, 7)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (14, 7)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (14, 7)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (14, 7)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (14, 7)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 0, waiting: 1, Mech_req_queue: 12, my last priority: 14, queue.top(): (1, 5)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 4[0;37m
+[1;34m [4]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (14, 7)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (26, 2)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 2[0;37m
+[0;37m [7]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 14, queue.top(): (26, 2)[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 1, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 3[0;37m
+[0;37m [7]: Dock counter: 0, waiting: 0, Dock_req_queue: 7, my last priority: 2147483647[0;37m
+[0;37m [7]: Requesting a dock[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 3, my last priority: 2147483647[0;37m
+[1;34m [4]: Dmg: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 1[0;37m
+[1;34m [4]: Dmg: 1[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 3[0;37m
+[0;37m [7]: Dock counter: 1, waiting: 1, Dock_req_queue: 7, my last priority: 209[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 4, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 0, Mech_req_queue: 6, my last priority: 2147483647, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 0, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;34m [4]: Requesting 1 mechs[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 4[0;37m
+[0;37m [7]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 2[0;37m
+[1;32m [2]: Mech counter: 1, waiting: 1, Mech_req_queue: 6, my last priority: 26, queue.top(): (37, 5)[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 0, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[0;37m [7]: current state - 1[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 4, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 3[0;37m
+[1;32m [2]: Dock counter: 0, waiting: 0, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;32m [2]: Requesting a dock[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 3[0;37m
+[1;32m [2]: Dock counter: 1, waiting: 1, Dock_req_queue: 1, my last priority: 223[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 37, queue.top(): (26, 2)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 4[0;37m
+[1;32m [2]: Dmg: 1, Mech counter: 1, Dock counter: 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 2[0;37m
+[1;35m [5]: Mech counter: 1, waiting: 1, Mech_req_queue: 5, my last priority: 37, queue.top(): (68, 0)[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 1, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;32m [2]: current state - 1[0;37m
+[1;33m [3]: current state - 2[0;37m
+[1;33m [3]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 177, queue.top(): (26, 2)[0;37m
+[1;33m [3]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;37m [0]: current state - 2[0;37m
+[1;37m [0]: Mech counter: 0, waiting: 1, Mech_req_queue: 5, my last priority: 68, queue.top(): (37, 5)[0;37m
+[1;37m [0]: Dock counter: 0, waiting: 1, Dock_req_queue: 1, my last priority: 2147483647[0;37m
+[1;36m [6]: current state - 2[0;37m
+[1;36m [6]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 99, queue.top(): (26, 2)[0;37m
+[1;36m [6]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;31m [1]: current state - 2[0;37m
+[1;31m [1]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 136, queue.top(): (26, 2)[0;37m
+[1;31m [1]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;34m [4]: current state - 2[0;37m
+[1;34m [4]: Mech counter: 0, waiting: 1, Mech_req_queue: 6, my last priority: 217, queue.top(): (26, 2)[0;37m
+[1;34m [4]: Dock counter: 0, waiting: 1, Dock_req_queue: 5, my last priority: 2147483647[0;37m
+[1;35m [5]: current state - 3[0;37m
+[1;35m [5]: Dock counter: 0, waiting: 0, Dock_req_queue: 2, my last priority: 2147483647[0;37m
+[1;35m [5]: Requesting a dock[0;37m
+[1;32m [2]: Dmg: 1

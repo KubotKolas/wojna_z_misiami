@@ -11,6 +11,7 @@ int mech_priority = MAX_INT;
 int dmg = 0;
 int repair_progress = 0;
 int waiting = 0;
+int s = 0;
 std::random_device rd;
 std::mt19937 gen(rd());
 std::uniform_int_distribution<> d_sleep(1, 5);
@@ -39,8 +40,8 @@ void mainLoop(int docks, int mechs, int proc_number){
                 if (dmg == 0){
                     dmg = rollDmg(mechs);
                     sleep(d_sleep(gen));
-                    checkMechQueue();
-                    checkDockQueue();
+                    checkMechQueue(0);
+                    checkDockQueue(0);
                 }
                 else {
                     stan = AWAIT_MECH;
@@ -57,8 +58,8 @@ void mainLoop(int docks, int mechs, int proc_number){
                 }
                 // debug("Dock counter: %d", dock_counter)
                 debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
-                checkMechQueue();
-                checkDockQueue();
+                checkMechQueue(0);
+                checkDockQueue(0);
                 {
                     std::lock_guard<std::mutex> g(mech_mtx);
                     if (mech_counter < dmg){
@@ -91,13 +92,30 @@ void mainLoop(int docks, int mechs, int proc_number){
                         dock_priority = MAX_INT;
                     }
                 }
-                checkDockQueue();
+                s = mech_counter - dmg;
+                if (s > 0){
+                    checkMechQueue(s);
+                    s = 0;
+                }
+                if (dock_counter > 1){
+                    checkDockQueue(dock_counter - 1);
+                }
                 break;
             case REPAIR:
             // TODO: to implement
+                    debug("Dmg: %d, Mech counter: %d, Dock counter: %d", dmg, mech_counter, dock_counter)
                     repair_progress += repair();
                     if (repair_progress >= 100){
                         stan = IDLE;
+                        dmg = 0;
+                    }
+                    s = mech_counter - dmg;
+                    if (s > 0){
+                        checkMechQueue(s);
+                        s = 0;
+                    }
+                    if (dock_counter > 1){
+                        checkDockQueue(dock_counter - 1);
                     }
                 break;
             default:
@@ -114,7 +132,7 @@ void mainLoop(int docks, int mechs, int proc_number){
 
 
 int rollDmg(int upper_limit){
-    std::uniform_int_distribution<> d_dmg(1, upper_limit/2);
+    std::uniform_int_distribution<> d_dmg(1, std::max(upper_limit/2, 1));
     return d_dmg(gen);
 }
 

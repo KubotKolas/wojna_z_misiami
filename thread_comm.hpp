@@ -13,6 +13,6 @@ void sendDock(int dest, int n=1);
 
 void handleMess(packet* p, MPI_Status* status);
 
-void checkDockQueue();
+void checkDockQueue(int surplus);
 
-void checkMechQueue();
+void checkMechQueue(int surplus);
