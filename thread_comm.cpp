@@ -1,219 +1,266 @@
-#include "thread_comm.hpp"
-#include "defines.hpp"
-#include "includes.hpp"
-#include <mpi.h>
-#include <mutex>
+#include "functions.hpp"
 
-void *startKomWatek(void *ptr) {
-  MPI_Status status;
-  int is_message = false;
-  packet pakiet;
-  int tid;
-  MPI_Comm_rank(MPI_COMM_WORLD, &tid);
-  /* Obrazuje pętlę odbierającą pakiety o różnych typach */
-  while (stan != FINISHED) {
-    // debug("czekam na recv");
-    MPI_Recv(&pakiet, 1, MPI_PAKIET_T, MPI_ANY_SOURCE, MPI_ANY_TAG,
-             MPI_COMM_WORLD, &status);
-    handleMess(&pakiet, &status);
-    // MPI_Bcast(&pakiet, 1, MPI_PAKIET_T, rank, MPI_COMM_WORLD);
-    // handleMess(&pakiet, &status);
-  }
-  return nullptr;
-}
-
-void requestMech(int n) {
-  debug("Requesting %d mechs", n);
-  packet p;
-  timer += 1;
-  mech_priority = timer;
-  p.ts = timer;
-  p.tag = REQ_MECH;
-  p.data = n;
-  p.src = rank;
-  for (int i = 0; i < proc_number; i++) {
-    if (i != rank) {
-      MPI_Send(&p, 1, MPI_PAKIET_T, i, REQ_MECH, MPI_COMM_WORLD);
-    }
-  }
-}
-
-void requestDock() {
-  debug("Requesting a dock");
-  packet p;
-  timer += 1;
-  dock_priority = timer;
-  p.ts = timer;
-  p.tag = REQ_DOCK;
-  p.data = 1;
-  p.src = rank;
-  for (int i = 0; i < proc_number; i++) {
-    if (i != rank) {
-      MPI_Send(&p, 1, MPI_PAKIET_T, i, REQ_DOCK, MPI_COMM_WORLD);
-    }
-  }
-}
-
-void sendMech(int dest, int n) {
-  packet p;
-  timer += 1;
-  p.ts = timer;
-  p.tag = T_MECH;
-  p.src = rank;
-  p.data = n;
-  MPI_Send(&p, 1, MPI_PAKIET_T, dest, T_MECH, MPI_COMM_WORLD);
-}
-
-void sendDock(int dest, int n) {
-  packet p;
-  timer += 1;
-  p.ts = timer;
-  p.tag = T_DOCK;
-  p.src = rank;
-  p.data = n;
-  MPI_Send(&p, 1, MPI_PAKIET_T, dest, T_DOCK, MPI_COMM_WORLD);
-}
-
-void handleMess(packet *pakiet, MPI_Status *status) {
-  // debug("Received mess")
-  timer = std::max(pakiet->ts, timer) + 1;
-
-  switch (pakiet->tag) {
-  case REQ_DOCK:
-    // TODO: test
-    // debug("Recieved dock req")
+void *startCommThread(void *ptr)
+{
+    while (state != FINISHED)
     {
-      std::lock_guard<std::mutex> g(dock_mtx);
-      dock_requests.push({pakiet->ts, pakiet->src});
+        MPI_Recv(&packet, 1, MPI_PACKET_T, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+        handleMessage(&packet, &status);
     }
-    switch (stan) {
-    case IDLE:
-    case AWAIT_MECH:
-    // case AWAIT_DOCK:
-      checkDockQueue();
-      break;
-    default:
-      break;
-    }
-    break;
-  case REQ_MECH:
-    // TODO: test
-    // debug("Recieved mech req")
+    return nullptr;
+}
+
+void requestMech(int n)
+{
+    Packet p;
+    timer += 1;
+    mech_priority = timer;
+    p.timestamp = timer;
+    p.tag = REQ_MECH;
+    p.data = n;
+    p.source = p_num;
+    for (int i = 0; i < number_processes; i++)
     {
-      std::lock_guard<std::mutex> g(mech_mtx);
-      mech_requests.push({pakiet->ts, pakiet->src});
-    }
-    switch (stan) {
-    case IDLE:
-    case AWAIT_MECH:
-      checkMechQueue();
-      break;
-    default:
-      break;
-    }
-    break;
-  case T_DOCK:
-    // TODO: test
-    {
-      std::lock_guard<std::mutex> g(dock_mtx);
-      /*if(dock_counter==0)*/ dock_counter += pakiet->data;
-      //else sendDock(pakiet->src, pakiet->data);
-      //debug("Received dock");
-    }
-    switch (stan) {
-    case IDLE:
-    case AWAIT_MECH:
-    // case AWAIT_DOCK:
-      checkDockQueue();
-      break;
-    default:
-      break;
-    }
-    break;
-  case T_MECH:
-    // TODO: test
-    {
-      std::lock_guard<std::mutex> g(mech_mtx);
-      mech_counter += pakiet->data;
-      //debug("received %d mechs", pakiet->data);
-      if(mech_counter > dmg )
-      {
-        if(!mech_requests.empty())
+        if (i != p_num)
         {
-          int dest = mech_requests.top().second;
-          sendMech(dest, mech_counter-dmg);
-          //mech_requests.pop();
-          mech_counter = dmg;
-        //mech_counter = 0;
+            MPI_Send(&p, 1, MPI_PACKET_T, i, REQ_MECH, MPI_COMM_WORLD);
         }
-        else
-        {
-          sendMech(pakiet->src, mech_counter-dmg);
-          mech_counter = dmg;
-        }
-        //sendMech(pakiet->src, mech_counter-dmg);
-      }
     }
-    switch (stan) {
-    case IDLE:
-    case AWAIT_MECH:
-      checkMechQueue();
-      break;
-    default:
-      break;
-    }
-    break;
-  default:
-    // Unknown message type; throw an error
-    // TODO: to implement
-    debug("[!] [id:%d] Malformed request from %d!", rank, status->MPI_SOURCE)
+}
 
+void requestDock()
+{
+    Packet p;
+    timer += 1;
+    dock_priority = timer;
+    p.timestamp = timer;
+    p.tag = REQ_DOCK;
+    p.data = 1;
+    p.source = p_num;
+    for (int i = 0; i < number_processes; i++)
+    {
+        if (i != p_num)
+        {
+            MPI_Send(&p, 1, MPI_PACKET_T, i, REQ_DOCK, MPI_COMM_WORLD);
+        }
+    }
+}
+
+void sendMech(int destination, int n)
+{
+    Packet p;
+    timer += 1;
+    p.timestamp = timer;
+    p.tag = T_MECH;
+    p.source = p_num;
+    p.data = n;
+    MPI_Send(&p, 1, MPI_PACKET_T, destination, T_MECH, MPI_COMM_WORLD);
+}
+
+void sendDock(int dest, int n)
+{
+    Packet p;
+    timer += 1;
+    p.timestamp = timer;
+    p.tag = T_DOCK;
+    p.source = p_num;
+    p.data = n;
+    MPI_Send(&p, 1, MPI_PACKET_T, dest, T_DOCK, MPI_COMM_WORLD);
+}
+
+void handleMessage(Packet *packet, MPI_Status *status)
+{
+    timer = max(packet->timestamp, timer) + 1;
+
+    switch (packet->tag)
+    {
+    case REQ_DOCK:
+    {
+        lock_guard<mutex> g(dock_mutex);
+        dock_requests.push({packet->timestamp, packet->source});
+    }
+        switch (state)
+        {
+        case IDLE:
+        case AWAIT_MECH:
+            checkDockQueue(0);
+            break;
+        case AWAIT_DOCK:
+        case REPAIR:
+            if (dock_counter > 1)
+            {
+                checkDockQueue(dock_counter - 1);
+            }
+            break;
+        default:
+            break;
+        }
         break;
-  }
+    case REQ_MECH:
+    {
+        lock_guard<mutex> g(mech_mutex);
+        mech_requests.push({packet->timestamp, packet->source});
+    }
+        switch (state)
+        {
+        case IDLE:
+        case AWAIT_MECH:
+            checkMechQueue(0);
+            break;
+        case AWAIT_DOCK:
+        case REPAIR:
+            surplus2 = mech_counter - damage;
+            if (surplus2 > 0)
+            {
+                checkMechQueue(surplus2);
+                surplus2 = 0;
+            }
+            break;
+        default:
+            break;
+        }
+        break;
+    case T_DOCK:
+    {
+        lock_guard<mutex> g(dock_mutex);
+        dock_counter += packet->data;
+    }
+        switch (state)
+        {
+        case IDLE:
+        case AWAIT_MECH:
+            checkDockQueue(0);
+            break;
+        case AWAIT_DOCK:
+        case REPAIR:
+            if (dock_counter > 1)
+            {
+                checkDockQueue(dock_counter - 1);
+            }
+            break;
+        default:
+            break;
+        }
+        break;
+    case T_MECH:
+    {
+        lock_guard<mutex> g(mech_mutex);
+        mech_counter += packet->data;
+    }
+        switch (state)
+        {
+        case IDLE:
+        case AWAIT_MECH:
+            checkMechQueue(0);
+            break;
+        case AWAIT_DOCK:
+        case REPAIR:
+            surplus2 = mech_counter - damage;
+            if (surplus2 > 0)
+            {
+                checkMechQueue(surplus2);
+                surplus2 = 0;
+            }
+            break;
+        default:
+            break;
+        }
+        break;
+    default:
+        debug("[!] [id:%d] Malformed request from %d!", p_num, status->MPI_SOURCE);
+    }
 }
 
-void checkDockQueue() {
-  {
-    std::lock_guard<std::mutex> g(dock_mtx);
-    if (dock_counter > 0 && !dock_requests.empty()) {
-      if (dock_requests.top().first < dock_priority) {
-        int dest = dock_requests.top().second;
-        sendDock(dest, 1);
-        dock_requests.pop();
-        dock_counter -= 1;
-        return;
-      }
-      if (dock_requests.top().first == dock_priority &&
-          dock_requests.top().second < rank) {
-        int dest = dock_requests.top().second;
-        sendDock(dest, 1);
-        dock_requests.pop();
-        dock_counter -= 1;
-        return;
-      }
+void checkDockQueue(int surplus)
+{
+    if (surplus)
+    {
+        {
+            lock_guard<mutex> g(dock_mutex);
+            while (dock_counter > 1 && !dock_requests.empty())
+            {
+                int dest = dock_requests.top().second;
+                sendDock(dest, 1);
+                dock_counter -= 1;
+            }
+            return;
+        }
     }
-  }
+    else
+    {
+        if (state == REPAIR)
+        {
+            return;
+        }
+        {
+            lock_guard<mutex> g(dock_mutex);
+            if (dock_counter > 0 && !dock_requests.empty())
+            {
+                if (dock_requests.top().first < dock_priority)
+                {
+                    int dest = dock_requests.top().second;
+                    sendDock(dest, dock_counter);
+                    dock_requests.pop();
+                    dock_counter = 0;
+                    return;
+                }
+                if (dock_requests.top().first == dock_priority &&
+                    dock_requests.top().second < p_num)
+                {
+                    int dest = dock_requests.top().second;
+                    sendDock(dest, dock_counter);
+                    dock_requests.pop();
+                    dock_counter = 0;
+                    return;
+                }
+            }
+        }
+    }
 }
 
-void checkMechQueue() {
-  {
-    std::lock_guard<std::mutex> g(mech_mtx);
-    if (mech_counter > 0 && !mech_requests.empty()) {
-      if (mech_requests.top().first < mech_priority) {
-        int dest = mech_requests.top().second;
-        sendMech(dest, mech_counter);
-        mech_requests.pop();
-        mech_counter = 0;
-        return;
-      }
-      if (mech_requests.top().first == mech_priority &&
-          mech_requests.top().second < rank) {
-        int dest = mech_requests.top().second;
-        sendMech(dest, mech_counter);
-        mech_requests.pop();
-        mech_counter = 0;
-        return;
-      }
+void checkMechQueue(int surplus)
+{
+    if (surplus)
+    {
+        {
+            lock_guard<mutex> g(mech_mutex);
+            if (!mech_requests.empty())
+            {
+                int dest = mech_requests.top().second;
+                sendMech(dest, surplus);
+                mech_counter -= surplus;
+                return;
+            }
+        }
     }
-  }
+    else
+    {
+        if (state == REPAIR)
+        {
+            return;
+        }
+        {
+            lock_guard<mutex> g(mech_mutex);
+            if (mech_counter > 0 && !mech_requests.empty())
+            {
+                if (mech_requests.top().first < mech_priority)
+                {
+                    int dest = mech_requests.top().second;
+                    sendMech(dest, mech_counter);
+                    mech_requests.pop();
+                    mech_counter = 0;
+                    return;
+                }
+                if (mech_requests.top().first == mech_priority &&
+                    mech_requests.top().second < p_num)
+                {
+                    int dest = mech_requests.top().second;
+                    sendMech(dest, mech_counter);
+                    mech_requests.pop();
+                    mech_counter = 0;
+                    return;
+                }
+            }
+        }
+    }
 }

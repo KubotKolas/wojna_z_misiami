@@ -1,129 +1,114 @@
-#include "includes.hpp"
-#include "defines.hpp"
-#include "thread_main.hpp"
-#include "thread_comm.hpp"
+#include "functions.hpp"
 
-
-// int tid;
-int timer = 0;
-int dock_priority = MAX_INT;
-int mech_priority = MAX_INT;
-//int dmg = 0;
-int repair_progress = 0;
-int waiting = 0;
-std::random_device rd;
-std::mt19937 gen(rd());
-std::uniform_int_distribution<> d_sleep(1, 5);
-
-void mainLoop(int docks, int mechs, int proc_number){
-    // MPI_Comm_rank(MPI_COMM_WORLD, &tid);
-
-    while (stan != FINISHED) {
-        //if(stan==REPAIR) debug("\t\t\t\t\t\t\t\t\tREPAIR");
-        /*if(stan==REPAIR)*/ debug("state: %s", states[stan]);//\tdamage: %d\tmechs: %d\tdocks - %d", states[stan], dmg, mech_counter, dock_counter);
-        //debug("current state - %d", stan)
-        switch (stan) {
-            case INIT:
-            // TODO: to implement
-                dock_counter = docks / proc_number;
-                if (rank < (docks % proc_number)){
-                    dock_counter += 1;
-                }
-                mech_counter = mechs / proc_number;
-                if (rank < (mechs % proc_number)){
-                    mech_counter += 1;
-                }
-                //debug("Docks: %d, Mechs:%d, T_DOCK: %d, T_MECH: %d", docks, mechs, dock_counter, mech_counter)
-                stan = IDLE;
-                break;
-            case IDLE:
-            // TODO: to implement
-                if (dmg == 0){
-                    dmg = rollDmg(mechs);
-                    sleep(d_sleep(gen));
-                    checkMechQueue();
-                    checkDockQueue();
-                }
-                else {
-                    stan = AWAIT_MECH;
-                }
-                //debug("Dmg: %d", dmg)
-                break;
-            case AWAIT_MECH:
-            // TODO: to implement
-                if (mech_requests.empty()) {
-                    //debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d", mech_counter, waiting, mech_requests.size(), mech_priority)
-                }
-                else {
-                    //debug("Mech counter: %d, waiting: %d, Mech_req_queue: %zu, my last priority: %d, queue.top(): (%d, %d)", mech_counter, waiting, mech_requests.size(), mech_priority, mech_requests.top().first, mech_requests.top().second)
-                }
-                // debug("Dock counter: %d", dock_counter)
-                //ebug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
-                checkMechQueue();
-                checkDockQueue();
+void mainLoop(int docks, int mechanics, int number_processes)
+{
+    while (state != FINISHED)
+    {
+        switch (state)
+        {
+        case INIT:
+            dock_counter = docks / number_processes;
+            if (p_num < (docks % number_processes))
+                dock_counter += 1;
+            mech_counter = mechanics / number_processes;
+            if (p_num < (mechanics % number_processes))
+                mech_counter += 1;
+            state = IDLE;
+            break;
+        case IDLE:
+            damage = rand() % max(1, mechanics / 2) + 1;
+            sleep(rand() % 5 + 1);
+            checkMechQueue(0);
+            checkDockQueue(0);
+            state = AWAIT_MECH;
+            break;
+        case AWAIT_MECH:
+            checkMechQueue(0);
+            checkDockQueue(0);
+            {
+                lock_guard<mutex> g(mech_mutex);
+                if (mech_counter < damage)
                 {
-                    std::lock_guard<std::mutex> g(mech_mtx);
-                    if (mech_counter < dmg){
-                        if(!waiting){
-                            requestMech(dmg);
-                            waiting = 1;
-                        }
-                    }
-                    else {
-                        waiting = 0;
-                        stan = AWAIT_DOCK;
-                        mech_priority = MAX_INT;
+                    if (!waiting)
+                    {
+                        requestMech(damage);
+                        waiting = true;
                     }
                 }
-                break;
-            case AWAIT_DOCK:
-            // TODO: to implement
-                //debug("Dock counter: %d, waiting: %d, Dock_req_queue: %zu, my last priority: %d", dock_counter, waiting, dock_requests.size(), dock_priority)
+                else
                 {
-                    std::lock_guard<std::mutex> g(dock_mtx);
-                    if (dock_counter == 0){
-                        if(!waiting){
-                            requestDock();
-                            waiting = 1;
-                        }
-                    }
-                    else {
-                        waiting = 0;
-                        stan = REPAIR;
-                        dock_priority = MAX_INT;
-                    }
+                    waiting = false;
+                    state = AWAIT_DOCK;
+                    mech_priority = MAX_INT;
                 }
-                checkDockQueue();
-                break;
-            case REPAIR:
-            // TODO: to implement
-                    repair_progress += repair();
-                    if (repair_progress >= 100){
-                        stan = IDLE;
-                        repair_progress = 0;
-                        dmg = 0;
-                    }
-                break;
-            default:
-            // Impossible state; raise error
-            // TODO: to implement
-                debug("[!] Enteres impossible state")
-                break;
-            
+            }
+            break;
+        case AWAIT_DOCK:
+        {
+            lock_guard<mutex> g(dock_mutex);
+            if (dock_counter == 0)
+            {
+                if (!waiting)
+                {
+                    requestDock();
+                    waiting = true;
+                }
+            }
+            else
+            {
+                waiting = false;
+                state = REPAIR;
+                dock_priority = MAX_INT;
+            }
+        }
+            surplus1 = mech_counter - damage;
+            if (surplus1 > 0)
+            {
+                checkMechQueue(surplus1);
+                surplus1 = 0;
+            }
+            if (dock_counter > 1)
+            {
+                checkDockQueue(dock_counter - 1);
+            }
+            break;
+        case REPAIR:
+            repair_progress += rand() % 10 + 15;
+            if (repair_progress >= 100)
+            {
+                state = IDLE;
+                damage = 0;
+                repair_progress = 0;
+            }
+            surplus1 = mech_counter - damage;
+            if (surplus1 > 0)
+            {
+                checkMechQueue(surplus1);
+                surplus1 = 0;
+            }
+            if (dock_counter > 1)
+            {
+                checkDockQueue(dock_counter - 1);
+            }
+            break;
+        default:
+            debug("[!] Enteres impossible state");
+            break;
+        }
+        string dock_vis(dock_counter, (char)79);
+        dock_vis += string(docks - dock_counter, (char)45);
+        string mech_vis(mech_counter, (char)79);
+        mech_vis += string(mechanics - mech_counter, (char)45);
+        string rep_vis(repair_progress / 10, (char)79);
+        rep_vis += string(10 - repair_progress / 10, (char)45);
+        if (state != REPAIR)
+        {
+            debug("State: %s\tDamage: %d\tMechanics: %d\t%s\tDocks: %d\t%s", states[state], damage, mech_counter, mech_vis.c_str(), dock_counter, dock_vis.c_str());
+        }
+        else
+        {
+            debug("State: %s\tDamage: %d\tMechanics: %d\t%s\tDocks: %d\t%s\tRepair progress: %s", states[state], damage, mech_counter, mech_vis.c_str(), dock_counter, dock_vis.c_str(), rep_vis.c_str());
         }
         sleep(1);
     }
 }
-
-
-
-int rollDmg(int upper_limit){
-    std::uniform_int_distribution<> d_dmg(1, upper_limit/2);
-    return d_dmg(gen);
-}
-
-int repair(){
-    std::uniform_int_distribution<> d_repair(1, 25);
-    return d_repair(gen);
-}
-
